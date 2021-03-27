@@ -6,6 +6,7 @@ def pair_sum(arr, k):
     for num in arr:
         target = k - num
         if target not in seen:
+            
             seen.add(num)
         else:
             output.add((min(num,target),max(num,target)))
