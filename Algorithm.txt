@@ -1,3 +1,17 @@
 Algorithm Analysis and Big O notation
 
 It is the process and formula for solving any problem
+
+%timeit depends on speed of computer and hardware therefore Big O (generic Notation) com into picture
+
+Big O notation --> Asymptotic analysis describes how quickly runtime will grow relative to the input get arbitary large.
+
+Big O   Name 
+1       Constant
+log(n)  logarithm
+n       Linear
+nlog(n) log Linear
+n^2     Qaudratic 
+n^3     Cubic
+2^n     Exponntial
+
